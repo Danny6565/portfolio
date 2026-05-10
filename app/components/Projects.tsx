@@ -6,7 +6,7 @@ const projects = [
     tags: ["Next.js", "TypeScript", "React Leaflet", "GTFS-RT"],
     href: "#",
     repo: "#",
-    image: "/projects/brisbane-transit.svg",
+    image: "/projects/brisbane-transit.png",
   },
 ];
 
