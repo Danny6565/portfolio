@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+
+  <!-- Land background -->
+  <rect width="800" height="450" fill="#0c1220"/>
+
+  <!-- Moreton Bay — water area on the far right -->
+  <path d="M 800,0 L 745,0 Q 730,60 725,130 Q 718,210 722,280 Q 726,350 742,420 L 800,450 Z"
+        fill="#0f2240" fill-opacity="0.9"/>
+  <path d="M 800,0 L 770,0 Q 760,80 756,160 Q 752,240 755,310 Q 758,380 768,450 L 800,450 Z"
+        fill="#0f2240" fill-opacity="0.6"/>
+
+  <!-- Brisbane River -->
+  <!-- Outer glow (very subtle) -->
+  <path d="M -10,335 C 80,336 145,339 182,343 C 220,347 248,356 272,364
+           C 292,371 322,374 352,372 C 370,371 387,366 402,356
+           C 417,346 430,333 442,317 C 452,303 460,288 474,274
+           C 487,262 507,254 532,250 C 556,246 582,245 612,246
+           C 645,248 678,250 720,252 C 755,254 780,255 800,256"
+        fill="none" stroke="#1a4a7a" stroke-width="46" stroke-opacity="0.18" stroke-linecap="round"/>
+
+  <!-- River body -->
+  <path d="M -10,335 C 80,336 145,339 182,343 C 220,347 248,356 272,364
+           C 292,371 322,374 352,372 C 370,371 387,366 402,356
+           C 417,346 430,333 442,317 C 452,303 460,288 474,274
+           C 487,262 507,254 532,250 C 556,246 582,245 612,246
+           C 645,248 678,250 720,252 C 755,254 780,255 800,256"
+        fill="none" stroke="#0f2442" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- River shimmer / reflection highlight -->
+  <path d="M -10,335 C 80,336 145,339 182,343 C 220,347 248,356 272,364
+           C 292,371 322,374 352,372 C 370,371 387,366 402,356
+           C 417,346 430,333 442,317 C 452,303 460,288 474,274
+           C 487,262 507,254 532,250 C 556,246 582,245 612,246
+           C 645,248 678,250 720,252 C 755,254 780,255 800,256"
+        fill="none" stroke="#2a6ab0" stroke-width="1.5" stroke-opacity="0.3" stroke-linecap="round"/>
+
+  <!-- CBD city blocks (north of the river bend, x:358–440, y:195–292) -->
+  <!-- Horizontal streets / blocks -->
+  <rect x="360" y="198" width="78" height="9"  rx="1" fill="#ffffff" fill-opacity="0.023"/>
+  <rect x="362" y="214" width="72" height="9"  rx="1" fill="#ffffff" fill-opacity="0.023"/>
+  <rect x="365" y="230" width="65" height="9"  rx="1" fill="#ffffff" fill-opacity="0.022"/>
+  <rect x="367" y="246" width="60" height="9"  rx="1" fill="#ffffff" fill-opacity="0.021"/>
+  <rect x="369" y="262" width="54" height="9"  rx="1" fill="#ffffff" fill-opacity="0.019"/>
+  <rect x="371" y="278" width="46" height="8"  rx="1" fill="#ffffff" fill-opacity="0.017"/>
+  <!-- Vertical streets -->
+  <rect x="376" y="196" width="6" height="94"  rx="1" fill="#ffffff" fill-opacity="0.014"/>
+  <rect x="390" y="200" width="6" height="92"  rx="1" fill="#ffffff" fill-opacity="0.014"/>
+  <rect x="404" y="204" width="6" height="88"  rx="1" fill="#ffffff" fill-opacity="0.014"/>
+  <rect x="418" y="208" width="6" height="82"  rx="1" fill="#ffffff" fill-opacity="0.013"/>
+  <rect x="432" y="212" width="6" height="74"  rx="1" fill="#ffffff" fill-opacity="0.011"/>
+
+  <!-- South Bank parklands (south of CBD, between CBD and river, x:365–415, y:295–338) -->
+  <rect x="365" y="298" width="50" height="38" rx="3" fill="#10403a" fill-opacity="0.35"/>
+
+  <!-- Bridges crossing the river -->
+  <!-- Victoria Bridge (CBD ↔ South Bank, x≈399, river centre y≈356) -->
+  <line x1="399" y1="340" x2="399" y2="372" stroke="#2a6aaa" stroke-width="2.5" stroke-opacity="0.55"/>
+  <!-- Kurilpa Bridge (pedestrian, x≈374, river centre y≈365) -->
+  <line x1="374" y1="349" x2="374" y2="381" stroke="#2a6aaa" stroke-width="1.8" stroke-opacity="0.4"/>
+  <!-- Story Bridge (x≈454, river centre y≈300) -->
+  <line x1="454" y1="284" x2="454" y2="318" stroke="#2a6aaa" stroke-width="2.5" stroke-opacity="0.55"/>
+  <!-- Captain Cook Bridge (x≈342, motorway, river centre y≈372) -->
+  <line x1="342" y1="355" x2="342" y2="389" stroke="#2a6aaa" stroke-width="2" stroke-opacity="0.35"/>
+
+  <!-- ══ ROUTE LINES ══ -->
+
+  <!-- TRAINS (amber) — 5 lines radiating from Roma Street / CBD -->
+  <!-- Ipswich / Springfield: SW, follows river corridor -->
+  <polyline points="396,248 358,260 316,275 272,300 225,330 168,362 98,400 28,438"
+            fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <!-- Gold Coast / Beenleigh: South -->
+  <polyline points="392,254 378,290 362,325 344,362 322,402 300,442"
+            fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <!-- Caboolture / Sunshine Coast: North -->
+  <polyline points="400,238 406,204 414,170 422,138 430,104 435,68 438,32 440,0"
+            fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <!-- Cleveland: East (follows river to bay) -->
+  <polyline points="406,244 450,240 500,238 552,237 606,239 658,243 712,249 762,253 800,256"
+            fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <!-- Airport / Doomben: NE -->
+  <polyline points="408,237 442,220 472,207 505,197 540,189 574,184 610,180 646,178"
+            fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-opacity="0.5" stroke-linejoin="round"/>
+
+  <!-- METRO BRT (purple) — M1/M2 through inner south -->
+  <polyline points="312,330 332,310 354,292 374,278 394,264 410,252 432,244 456,237 482,231 510,227"
+            fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.5" stroke-linejoin="round"/>
+
+  <!-- BUS (blue) — major arterial corridors -->
+  <!-- N–S western corridor -->
+  <polyline points="232,0 230,55 228,110 226,162 224,208 222,252 220,300 216,352 212,408 208,450"
+            fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.28"/>
+  <!-- N–S central corridor -->
+  <polyline points="460,0 460,55 460,110 460,158 461,204 462,248 462,298 460,348 456,400 452,450"
+            fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.28"/>
+  <!-- N–S eastern corridor -->
+  <polyline points="648,0 649,60 650,118 651,168 652,212 652,255 651,302 648,355 644,408 638,450"
+            fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.28"/>
+  <!-- E–W northern corridor -->
+  <polyline points="0,184 80,183 162,182 244,182 322,181 396,179 468,178 542,178 616,178 692,178 770,178 800,178"
+            fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.28"/>
+  <!-- E–W southern corridor (follows river latitude roughly) -->
+  <polyline points="0,272 80,271 160,270 240,269 318,267 392,263 466,257 540,251 614,247 688,244 762,242 800,241"
+            fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.28"/>
+
+  <!-- FERRY (green) — runs along the river -->
+  <polyline points="180,346 224,357 268,365 312,372 350,372 386,362 406,352 426,336 446,314 462,292 474,274"
+            fill="none" stroke="#34d399" stroke-width="2" stroke-opacity="0.5" stroke-linejoin="round"/>
+
+  <!-- ══ VEHICLE DOTS ══ -->
+
+  <!-- Trains (amber, r=6) -->
+  <circle cx="272" cy="300" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="500" cy="238" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="606" cy="239" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="422" cy="138" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="540" cy="189" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="658" cy="243" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="362" cy="325" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+  <circle cx="168" cy="362" r="6" fill="#f59e0b" fill-opacity="0.92"/>
+
+  <!-- Metro (purple, r=4) -->
+  <circle cx="354" cy="292" r="4" fill="#a78bfa" fill-opacity="0.92"/>
+  <circle cx="432" cy="244" r="4" fill="#a78bfa" fill-opacity="0.92"/>
+  <circle cx="482" cy="231" r="4" fill="#a78bfa" fill-opacity="0.92"/>
+
+  <!-- Buses (blue, r=4) -->
+  <circle cx="160" cy="270" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="318" cy="267" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="614" cy="247" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="228" cy="110" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="461" cy="204" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="692" cy="244" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="80" cy="183" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="542" cy="178" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+  <circle cx="392" cy="179" r="4" fill="#38bdf8" fill-opacity="0.92"/>
+
+  <!-- Ferries (green, r=4) -->
+  <circle cx="312" cy="372" r="4" fill="#34d399" fill-opacity="0.92"/>
+  <circle cx="406" cy="352" r="4" fill="#34d399" fill-opacity="0.92"/>
+  <circle cx="462" cy="292" r="4" fill="#34d399" fill-opacity="0.92"/>
+
+  <!-- ══ UI CHROME ══ -->
+
+  <!-- Header bar -->
+  <rect width="800" height="46" fill="#000000" fill-opacity="0.76"/>
+  <rect y="46" width="800" height="1" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- Title (left) -->
+  <text x="20" y="19"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="13" font-weight="600" fill="#ffffff" letter-spacing="-0.2">
+    Brisbane Transit Live
+  </text>
+  <text x="20" y="35"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="10" fill="#71717a">
+    South East Queensland · real-time GTFS feed
+  </text>
+
+  <!-- Clock (centre) -->
+  <text x="400" y="20"
+        font-family="ui-monospace,Menlo,Consolas,monospace"
+        font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+    14:23:07
+  </text>
+  <text x="400" y="36"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="10" fill="#71717a" text-anchor="middle">
+    Sat 10 May
+  </text>
+
+  <!-- Vehicle count (right) -->
+  <text x="782" y="21"
+        font-family="ui-monospace,Menlo,Consolas,monospace"
+        font-size="22" font-weight="700" fill="#38bdf8" text-anchor="end" letter-spacing="-0.5">
+    843
+  </text>
+  <text x="782" y="37"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="10" fill="#71717a" text-anchor="end">
+    vehicles
+  </text>
+
+  <!-- Legend (bottom-right) -->
+  <rect x="656" y="333" width="130" height="100" rx="9"
+        fill="#000000" fill-opacity="0.68"/>
+  <rect x="656" y="333" width="130" height="100" rx="9"
+        fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <circle cx="672" cy="353" r="5" fill="#38bdf8"/>
+  <text x="683" y="357" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" fill="#d4d4d8">Bus</text>
+  <text x="778" y="357" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#71717a" text-anchor="end">612</text>
+
+  <circle cx="672" cy="371" r="5" fill="#f59e0b"/>
+  <text x="683" y="375" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" fill="#d4d4d8">CityTrain</text>
+  <text x="778" y="375" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#71717a" text-anchor="end">148</text>
+
+  <circle cx="672" cy="389" r="5" fill="#34d399"/>
+  <text x="683" y="393" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" fill="#d4d4d8">Ferry</text>
+  <text x="778" y="393" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#71717a" text-anchor="end">24</text>
+
+  <circle cx="672" cy="407" r="5" fill="#a78bfa"/>
+  <text x="683" y="411" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" fill="#d4d4d8">Metro</text>
+  <text x="778" y="411" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#71717a" text-anchor="end">59</text>
+
+  <!-- Footer pill -->
+  <rect x="224" y="420" width="352" height="22" rx="11"
+        fill="#000000" fill-opacity="0.62"/>
+  <rect x="224" y="420" width="352" height="22" rx="11"
+        fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <text x="400" y="435"
+        font-family="ui-monospace,Menlo,Consolas,monospace"
+        font-size="9.5" fill="#71717a" text-anchor="middle">
+    Updated 14:23:07 · 8s ago · refreshes every 15s
+  </text>
+
+</svg>
